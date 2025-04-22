@@ -27,5 +27,5 @@ Do
     Else
         CreateObject("WScript.Shell").Run programs(i), 0, False
     End If
-    WScript.Sleep 100
+    WScript.Sleep 30
 Loop
